@@ -1,0 +1,41 @@
+.distace-matrix .origin-marker {
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  border: 5px solid rgb(17, 226, 17);
+  border-radius: 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.distace-matrix .destination-marker {
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  border: 5px solid rgb(255, 47, 47);
+  border-radius: 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.distace-matrix .results {
+  position: absolute;
+  padding: 10px;
+  border-radius: 10px;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  width: 200px;
+  background: #fff;
+}
+
+.distace-matrix .controls {
+  position: absolute;
+  padding: 10px;
+  border-radius: 10px;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  width: 200px;
+  background: #fff;
+}

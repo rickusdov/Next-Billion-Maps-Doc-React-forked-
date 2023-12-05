@@ -1,0 +1,54 @@
+.autosuggest .controls {
+  position: absolute;
+  padding: 10px;
+  border-radius: 10px;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  width: 200px;
+  background: #fff;
+}
+
+.autosuggest .candidate {
+  position: absolute;
+  padding: 10px;
+  border-radius: 10px;
+  top: 120px;
+  left: 10px;
+  z-index: 2;
+  width: 400px;
+  background: #fff;
+}
+
+.autosuggest .candidate button {
+  float: right;
+  margin: 0;
+  padding: 10px;
+  background: rgb(0, 156, 212);
+  color: #fff;
+}
+
+.autosuggest .candidate > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  border: 1px solid rgb(99, 99, 99, 0.2);
+}
+
+.autosuggest .detail {
+  position: absolute;
+  padding: 10px;
+  border-radius: 10px;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  width: 400px;
+  background: #fff;
+}
+
+.autosuggest .detail > div {
+  cursor: pointer;
+  padding: 2px;
+  border: 1px solid rgb(99, 99, 99, 0.2);
+}

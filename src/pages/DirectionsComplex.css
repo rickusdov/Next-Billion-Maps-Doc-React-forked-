@@ -1,0 +1,16 @@
+.origin-marker {
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: 5px solid #000;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.custom-popup {
+}
+
+.custom-popup p {
+  margin: 0;
+  padding: 0;
+}
